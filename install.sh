@@ -11,22 +11,40 @@ echo ""
 echo "##################################################"
 echo "# digite sua senha para instalar as dependências #"
 echo "##################################################"
-#sudo apt install python3 # instalar versão 3 do python
-#sudo pip3 install -r requirements.txt
+sudo apt install python3 # instalar versão 3 do python
+sudo pip3 install -r requirements.txt
 clear
 echo "#########################################"
-echo "# bem, agora o arquivo erá aberto, cole #"
+echo "# bem, agora o arquivo sera aberto,cole #"
 echo "# sua token do @BotFather em 'SUA_TOKEN #"
 echo "# _AQUI', e coloque sua menssagem de    #"
 echo "# boas vindas em 'SUA_MENSSAGEM_DE_BOAS #"
 echo "# VINDAS', e rode o bot, ou feche o     #"
 echo "# editor que este script ira iniciar o  #"
 echo "# bot autmaticamente.                   #"
-echo "# OBD: ele demora um pouco para iniciar #"
+echo "# OBS: ele demora um pouco para iniciar #"
 echo "#########################################"
-echo "apert ENTER para continuar ..."
+echo "aperte ENTER para continuar ..."
 read ignor;
+echo "###################################################################"
+echo "# caro usuário, você esta rodando localmente ou em docker/cloud ? #"
+echo "#         (1)localmente                 (2)docker/cloud           #"
+echo "###################################################################"
+read opc;
+  case $opc in
+  "1") 
+echo "abrindo arquivo com gedit ..."
+sleep 2
 gedit lil/chatbotlil.py
+clear
+  ;;
+  "2")
+echo "abrindo arquivo com nano ..."
+sleep 2
+clear
+nano lil/chatbotlil.py
+;;
+esac
 #echo "gravando ..."
 #touch lil/token.txt
 #echo "${tokenn}" >> lil/token.txt

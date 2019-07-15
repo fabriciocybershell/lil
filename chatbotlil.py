@@ -38,7 +38,7 @@ trainer.train(convF)
 trainer.train ("chatterbot.corpus.portuguese")
 trainer.train ("chatterbot.corpus.portuguese.games")
 trainer.train ("chatterbot.corpus.portuguese.greetings")
-trainer.train ("chatterbot.corpus.portugueseenglish.conversations")
+trainer.train ("chatterbot.corpus.portuguese.conversations")
 
 #inicion do bot
 def start(bot, update):
@@ -47,10 +47,7 @@ def start(bot, update):
 #função de recebimento e envio de menssagem
 def chat(update, context):
     resp = sexta.get_response(update.message.text)
-    #update.message.reply_text(update.message.text(resp))
-    update.message.reply_text(f"{resp}")
-
-    #update.message.reply_text('não é permitido menssagens aqui !')
+    update.message.reply_text(f'{resp}')
 
 #definições do bot
 def main():
