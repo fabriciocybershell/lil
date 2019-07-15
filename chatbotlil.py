@@ -46,7 +46,7 @@ stat = arq.read()
 arq.close()
 
 arq = open('token.tk','r')
-stat = arq.read()
+tok = arq.read()
 arq.close()
 
 
