@@ -5,6 +5,6 @@ para fazer o download, instalação e configuração deste software, basta copia
 ```
 git clone https://github.com/fabriciocaetano/lil.git && chmod 755 /lil/install.sh && ./lil/install.sh 
 ````
-em seguida, irá aparecer um menu, siga o que for solicitado pelo menu para configurar o seu bot, e ele estará pronto para executar.
+em seguida, irá aparecer o menu do instalador "L.I.L BOT", siga o que for solicitado pelo menu interativo para configurar o seu bot, e ele estará pronto para executar.
 
 você esta livre para me enviar qualquer bug, correção, reclamação ou melhoramento, que seja de maneira detalhada.
