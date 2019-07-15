@@ -26,7 +26,7 @@ echo "# OBD: ele demora um pouco para iniciar #"
 echo "#########################################"
 echo "apert ENTER para continuar ..."
 read ignor;
-gedit chatbotlil.py
+gedit lil/chatbotlil.py
 #echo "gravando ..."
 #touch lil/token.txt
 #echo "${tokenn}" >> lil/token.txt
