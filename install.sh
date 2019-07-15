@@ -30,5 +30,5 @@ echo "${sta}" >> lil/stat.tk
 clear
 echo "executando chatterbot ..."
 sleep 2
-python3 chatbotlil.py
+python3 lil/chatbotlil.py
 
