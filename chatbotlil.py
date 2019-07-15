@@ -40,19 +40,9 @@ trainer.train ("chatterbot.corpus.portuguese.games")
 trainer.train ("chatterbot.corpus.portuguese.greetings")
 trainer.train ("chatterbot.corpus.portugueseenglish.conversations")
 
-#arquivos de configurações
-arq = open('stat.tk','r')
-stat = arq.read()
-arq.close()
-
-arq = open('token.tk','r')
-tok = arq.read()
-arq.close()
-
-
 #inicion do bot
 def start(bot, update):
-     bot.message.reply_text(f"{stat}")
+    bot.message.reply_text("SUA_MENSSAGEM_DE_BOAS_VINDAS")
             
 #função de recebimento e envio de menssagem
 def chat(update, context):
@@ -64,7 +54,10 @@ def chat(update, context):
 
 #definições do bot
 def main():
-    updater = Updater(f"{tok}", use_context=True)
+    #arq = open('token.txt','r')
+    #tokk = arq.read()
+    #arq.close()
+    updater = Updater("SEU_TOKEN_AQUI", use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(MessageHandler(Filters.text, chat))
