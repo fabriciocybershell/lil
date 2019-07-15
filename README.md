@@ -1,4 +1,4 @@
-# chatterbot python telegram  com machine learning "em desenvolvimento loca, upload ainda ser feito ..."
+# chatterbot python telegram  com machine learning "em desenvolvimento local, upload ainda sera feito ..."
 ![Package Version](https://img.shields.io/badge/dependencias-chatterbot%20-green.svg) ![Package Version](https://img.shields.io/badge/-pip3-green.svg) ![Package Version](https://img.shields.io/badge/-pithon3-green.svg) ![Package Version](https://img.shields.io/badge/-python_telegram_bot-green.svg)
 
 para fazer o download, instalação e configuração deste software, basta copiar e colar a linha de comando abaixo, aguardar um momento até que ele peça para você digitar a sua senha, e aguarde a instalação proseguir:
