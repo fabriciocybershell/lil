@@ -44,7 +44,8 @@ trainer.train ("chatterbot.corpus.portugueseenglish.conversations")
 arq = open('stat.tk','r')
 stat = arq.read()
 arq.close()
-tok = open('token.tk','r')
+
+arq = open('token.tk','r')
 stat = arq.read()
 arq.close()
 
