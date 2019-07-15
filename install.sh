@@ -18,15 +18,15 @@ echo "cole sua token do telegram bot aqui:"
 echo "####################################"
 read tokenn;
 echo "gravando ..."
-touch token.tk
-echo "${tokenn}" >> token.tk
+touch lil/token.tk
+echo "${tokenn}" >> lil/token.tk
 clear
 echo "###########################################################"
 echo "digite a menssagem que ira aparecer quando comando /start :"
 echo "###########################################################"
 read sta;
-touch stat.tk
-echo "${sta}" >> stat.tk
+touch lil/stat.tk
+echo "${sta}" >> lil/stat.tk
 clear
 echo "executando chatterbot ..."
 sleep 2
