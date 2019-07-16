@@ -1,5 +1,6 @@
 # chatterbot python telegram com machine learning
-![Package Version](https://img.shields.io/badge/dependencias-chatterbot%20-green.svg) ![Package Version](https://img.shields.io/badge/-pip3-green.svg) ![Package Version](https://img.shields.io/badge/-python3-green.svg) ![Package Version](https://img.shields.io/badge/-python_telegram_bot-green.svg)
+
+![Package Version](https://img.shields.io/badge/version-0.0.2-blue.svg?cacheSeconds=2592000) ![Package Version](https://img.shields.io/badge/in-development-brightgreen.svg) ![Package Version](https://img.shields.io/badge/dependencias-chatterbot%20-green.svg) ![Package Version](https://img.shields.io/badge/-pip3-green.svg) ![Package Version](https://img.shields.io/badge/-python3-green.svg) ![Package Version](https://img.shields.io/badge/-python_telegram_bot-green.svg)
 
  para fazer o download e instalação deste software, basta copiar e colar a linha de comando abaixo, aguardar um momento até que ele peça para você digitar a sua senha, e aguarde a instalação proseguir:
 ```
