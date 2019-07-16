@@ -29,7 +29,7 @@ echo "aperte ENTER para continuar ..."
 read ignor;
 echo "###################################################################"
 echo "# caro usuário, você esta rodando localmente ou em docker/cloud ? #"
-echo "#         (1)localmente                 (2)docker/cloud           #"
+echo "# (1)localmente        (2)docker/cloud         (3)escolher editor #"
 echo "###################################################################"
 read opc;
   case $opc in
@@ -44,6 +44,11 @@ echo "abrindo arquivo com nano ..."
 sleep 2
 clear
 nano lil/chatbotlil.py
+;;
+  "3")
+echo "digite o nome do editor a abrir:"
+read edit;
+${edit} lil/chatbotlil.py
 ;;
 esac
 #echo "gravando ..."
