@@ -35,11 +35,6 @@ trainer = ListTrainer (sexta)
 #listas a serem treinadas
 trainer.train(convI)
 trainer.train(convF)
-trainer.train ("chatterbot.corpus.portuguese")
-trainer.train ("chatterbot.corpus.portuguese.games")
-trainer.train ("chatterbot.corpus.portuguese.greetings")
-trainer.train ("chatterbot.corpus.portuguese.conversations")
-
 #inicion do bot
 def start(bot, update):
     bot.message.reply_text("SUA_MENSSAGEM_DE_BOAS_VINDAS")
