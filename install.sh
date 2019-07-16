@@ -12,6 +12,7 @@ echo "##################################################"
 echo "# digite sua senha para instalar as dependências #"
 echo "##################################################"
 sudo apt install python3 # instalar versão 3 do python
+clear
 sudo pip3 install -r requirements.txt
 clear
 echo "#########################################"
