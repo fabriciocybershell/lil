@@ -15,7 +15,11 @@ sudo apt install python3 # instalar versão 3 do python
 clear
 sudo apt install pip3
 clear
-sudo pip3 install -r requirements.txt
+#sudo pip3 install -r requirements.txt
+sudo pip3 install telegram
+sudo pip3 install python-telegram-bot
+sudo pip3 install chatterbot
+sudo pip3 install chatbot
 clear
 echo "#########################################"
 echo "# bem, agora o arquivo sera aberto,cole #"
