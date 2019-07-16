@@ -34,6 +34,12 @@ sudo pip3 install chatterbot
 sudo pip3 install chatbot
 sudo pip3 install pyyaml
 sudo pip3 install spacy
+sudo pip3 install mathparse
+sudo pip3 install  murmurhash
+sudo pip3 install  tqdm
+sudo pip3 install cyme
+sudo pip3 install plac
+sudo pip3 install  srsly
 clear
 echo ".##...........####.....##..........########...#######..########...
 .##............##......##..........##.....##.##.....##....##......
@@ -50,6 +56,18 @@ sudo pip3 install python-dateutil
 sudo pip3 install pymongo
 sudo pip3 install pint
 sudo pip3 install ChatterBot
+sudo pip3 install blis
+sudo pip3 install preshed
+sudo pip3 install wasabi
+sudo pip3 install thinc
+sudo pip3 install spacy
+sudo pip3 install pymongo
+sudo pip3 install pyyaml
+sudo pip3 install pint
+sudo pip3 install nltk
+sudo pip3 install python-dateutil
+sudo pip3 install sqlalchemy
+sudo pip3 install chatterbot
 clear
 echo "#########################################"
 echo "# bem, agora o arquivo sera aberto,cole #"
