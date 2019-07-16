@@ -42,7 +42,7 @@ def start(bot, update):
 #função de recebimento e envio de menssagem
 def chat(update, context):
     resp = sexta.get_response(update.message.text)
-    update.message.reply_text(f'{resp}')
+    update.message.reply_text(f"{resp}")
 
 #definições do bot
 def main():
