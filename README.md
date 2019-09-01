@@ -8,4 +8,4 @@ git clone https://github.com/fabriciocaetano/lil.git && chmod 755 lil/install.sh
 ````
 em seguida, irá aparecer o menu do instalador "L.I.L BOT", siga o que for solicitado pelo menu interativo para configurar o seu bot, e ele estará pronto para executar.
 
-você esta livre para me enviar qualquer bug, correção, reclamação ou melhoramento, que seja de maneira detalhada e construtiva.
+você esta livre para me enviar qualquer bug, correção, reclamação ou melhoria, que seja de maneira detalhada e construtiva.
