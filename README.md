@@ -3,6 +3,7 @@
 ![Package Version](https://img.shields.io/badge/version-0.0.2-blue.svg?cacheSeconds=2592000) ![Package Version](https://img.shields.io/badge/in-development-brightgreen.svg) ![Package Version](https://img.shields.io/badge/dependencias-chatterbot%20-green.svg) ![Package Version](https://img.shields.io/badge/-pip3-green.svg) ![Package Version](https://img.shields.io/badge/-python3-green.svg) ![Package Version](https://img.shields.io/badge/-python_telegram_bot-green.svg)
 
  para fazer o download e instalação deste software, basta copiar e colar a linha de comando abaixo, aguardar um momento até que ele peça para você digitar a sua senha, e aguarde a instalação proseguir:
+ **Linha de Comando:**
 ```
 git clone https://github.com/fabriciocaetano/lil.git && chmod 755 lil/install.sh && ./lil/install.sh 
 ````
@@ -19,7 +20,7 @@ foi adicionado recentemente uma função de treinamento de conversas exportadas 
  # tratando dados
  
   para se tratar os dados precisamos do arquivo "treinamento.sh", para usá-lo, basta abrir o terminal e navegar até a pasta /lil/ e executar usando:
-  
+  **Linha de Comando**
 ´./treinamento <ARQUIVO EXPORTADO.TXT>´
 
  é aconselhavel que você renomeie o arquivo para um unico nome, e em seguida ele perguntará o nome de destino .csv, bastando digitar apenas o nome que ele gera o arquivo e treina o chatbot sosinho. seghue um exemplo de linha de comando rela abaixo com dados falsos:
