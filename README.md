@@ -4,7 +4,7 @@
 
  para fazer o download e instalação deste software, basta copiar e colar a linha de comando abaixo, aguardar um momento até que ele peça para você digitar a sua senha, e aguarde a instalação proseguir:
  **Linha de Comando:**
-```
+```bash
 git clone https://github.com/fabriciocaetano/lil.git && chmod 755 lil/install.sh && ./lil/install.sh 
 ````
 em seguida, irá aparecer o menu do instalador "L.I.L BOT", siga o que for solicitado pelo menu interativo para configurar o seu bot, e ele estará pronto para executar.
@@ -20,8 +20,8 @@ foi adicionado recentemente uma função de treinamento de conversas exportadas 
  # tratando dados
  
   para se tratar os dados precisamos do arquivo "treinamento.sh", para usá-lo, basta abrir o terminal e navegar até a pasta /lil/ e executar usando:
-  **Linha de Comando**
-´./treinamento <ARQUIVO EXPORTADO.TXT>´
+  **Linha de Comando** 
+  (ex:`./treinamento <ARQUIVO EXPORTADO.TXT>`)
 
  é aconselhavel que você renomeie o arquivo para um unico nome, e em seguida ele perguntará o nome de destino .csv, bastando digitar apenas o nome que ele gera o arquivo e treina o chatbot sosinho. seghue um exemplo de linha de comando rela abaixo com dados falsos:
  [![asciicast](https://asciinema.org/a/280732.svg)](https://asciinema.org/a/280732)
