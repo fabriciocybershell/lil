@@ -26,6 +26,6 @@ foi adicionado recentemente uma função de treinamento de conversas exportadas 
   `./treinamento <ARQUIVO EXPORTADO.TXT>`
 
  é aconselhavel que você renomeie o arquivo para um unico nome, e em seguida ele perguntará o nome de destino .csv, bastando digitar apenas o nome que ele gera o arquivo e treina o chatbot sozinho. segue um exemplo de linha de comando abaixo com dados falsos de exemplo:
-[![asciicast](https://asciinema.org/a/280732.svg)](https://asciinema.org/a/280732)
+<a href="https://asciinema.org/a/14?autoplay=1"><img src="https://asciinema.org/a/14.png" width="836"/></a>
  
 você esta livre para me enviar qualquer bug, correção, reclamação ou melhoria, que seja de maneira detalhada e construtiva.
