@@ -1,6 +1,9 @@
 #! /bin/bash
 
-if [ "$1" == "" ]; then exit; fi
+if [ "$1" == "" ]; then
+echo "digite o caminho do arquivo como argumento, ex: ./treinamento <CAMINHO DO ARQUIVO>"
+exit;
+fi
 input=$1
 
 echo "digite o nome do arquivo que será salvo em CSV:"
@@ -26,7 +29,5 @@ echo
 echo "aperte ENTER para iniciar treinamento."
 read
 echo "iniciando treinamento ..."
-
-cat $vari.csv | python3 train.py &
-
-echo "treinamento em andamento ..., para encerrar, aperte CTRL+C."
+echo "para interromper o treinamento, aperte CTRL+C"
+cat $vari.csv | python3 train.py
