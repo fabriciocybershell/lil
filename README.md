@@ -20,7 +20,8 @@ foi adicionado recentemente uma função de treinamento de conversas exportadas 
  # tratando dados
  
   para se tratar os dados precisamos do arquivo "treinamento.sh", para usá-lo, basta abrir o terminal e navegar até a pasta /lil/ e executar usando:
-  **Linha de Comando** 
+  
+  **Linha de Comando :** 
   
   `./treinamento <ARQUIVO EXPORTADO.TXT>`
 
