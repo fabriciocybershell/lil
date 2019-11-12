@@ -21,7 +21,7 @@ foi adicionado recentemente uma função de treinamento de conversas exportadas 
   para se tratar os dados precisamos do arquivo "treinamento.sh", para usá-lo, basta abrir o terminal e navegar até a pasta /lil/ e executar usando:
   
 **Command Line:**
-´´´
+´´´bash
 ./treinamento <ARQUIVO EXPORTADO.TXT>
  
 ´´´
