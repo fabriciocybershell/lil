@@ -8,4 +8,6 @@ git clone https://github.com/fabriciocaetano/lil.git && chmod 755 lil/install.sh
 ````
 em seguida, irá aparecer o menu do instalador "L.I.L BOT", siga o que for solicitado pelo menu interativo para configurar o seu bot, e ele estará pronto para executar.
 
+foi adicionado recentemente uma função de treinamento de conversas exportadas do whatsapp, um Shell Script capaz de filtrar os dados e lançar as conversas para o chatbot de maneira offline para treinar com as menssagens. para usar siga o tutorial a seguir: "ainda será adicionado, aguarde ..."
+
 você esta livre para me enviar qualquer bug, correção, reclamação ou melhoria, que seja de maneira detalhada e construtiva.
