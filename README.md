@@ -11,9 +11,7 @@ em seguida, irá aparecer o menu do instalador "L.I.L BOT", siga o que for solic
 foi adicionado recentemente uma função de treinamento de conversas exportadas do whatsapp, um Shell Script capaz de filtrar os dados e lançar as conversas para o chatbot de maneira offline para treinar com as menssagens. para usar siga o tutorial a seguir:
 
 # exportando dados para treinamento
- primeiro, é necessário que você entre em um chat do whatsapp e escolha uma de suas conversas pessoais, clicando em:
- ![ExtractFolder](https://telegra.ph/file/70aab41364af967c2f4f3.jpg)
- depois em mais: 
+ primeiro, é necessário que você entre em um chat do whatsapp e escolha uma de suas conversas pessoais, clicando em "três pontihnos", no canto superior direito. depois em mais: 
  ![ExtractFolder](https://telegra.ph/file/1900650d8aeaa98360e3e.jpg)
  e em exportar conversa:
  ![ExtractFolder](https://telegra.ph/file/7a3700ff8bb2e86044609.jpg)
