@@ -12,21 +12,19 @@ foi adicionado recentemente uma função de treinamento de conversas exportadas 
 
 # exportando dados para treinamento
  primeiro, é necessário que você entre em um chat do whatsapp e escolha uma de suas conversas pessoais, clicando em "três pontinhos", no canto superior direito. depois em MAIS: 
- ![ExtractFolder](https://telegra.ph/file/1900650d8aeaa98360e3e.jpg)
+ ![menu](https://telegra.ph/file/1900650d8aeaa98360e3e.jpg)
  e em exportar conversa:
- ![ExtractFolder](https://telegra.ph/file/7a3700ff8bb2e86044609.jpg)
+ ![menu](https://telegra.ph/file/7a3700ff8bb2e86044609.jpg)
  
  # tratando dados
  
   para se tratar os dados precisamos do arquivo "treinamento.sh", para usá-lo, basta abrir o terminal e navegar até a pasta /lil/ e executar usando:
   
 **Command Line:**
-´´´bash
+´´´
 ./treinamento <ARQUIVO EXPORTADO.TXT>
  
 ´´´
-**GUI:**
-
  é aconselhavel que você renomeie o arquivo para um unico nome, e em seguida ele perguntará o nome de destino .csv, bastando digitar apenas o nome que ele gera o arquivo e treina o chatbot sosinho. seghue um exemplo de linha de comando rela abaixo com dados falsos:
  [![asciicast](https://asciinema.org/a/280732.svg)](https://asciinema.org/a/280732)
  
