@@ -19,12 +19,15 @@ foi adicionado recentemente uma função de treinamento de conversas exportadas 
  # tratando dados
  
   para se tratar os dados precisamos do arquivo "treinamento.sh", para usá-lo, basta abrir o terminal e navegar até a pasta /lil/ e executar usando:
+  
 **Command Line:**
 ´´´
 ./treinamento <ARQUIVO EXPORTADO.TXT>
- # é aconselhavel que você renomeie o arquivo para um unico nome, e em seguida ele perguntará o nome de destino .csv, bastando digitar apenas o nome que ele gera o arquivo e treina o chatbot sosinho. seghue um exemplo de linha de comando rela abaixo com dados falsos:
- [![asciicast](https://asciinema.org/a/280732.svg)](https://asciinema.org/a/280732)
+ 
 ´´´
 **GUI:**
 
+ é aconselhavel que você renomeie o arquivo para um unico nome, e em seguida ele perguntará o nome de destino .csv, bastando digitar apenas o nome que ele gera o arquivo e treina o chatbot sosinho. seghue um exemplo de linha de comando rela abaixo com dados falsos:
+ [![asciicast](https://asciinema.org/a/280732.svg)](https://asciinema.org/a/280732)
+ 
 você esta livre para me enviar qualquer bug, correção, reclamação ou melhoria, que seja de maneira detalhada e construtiva.
