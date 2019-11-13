@@ -17,7 +17,7 @@ foi adicionado recentemente uma função de treinamento de conversas exportadas 
  e em exportar conversa:
  ![menu](https://telegra.ph/file/7a3700ff8bb2e86044609.jpg)
  
- # tratando dados
+# tratando dados
  
   para se tratar os dados precisamos do arquivo "treinamento.sh", para usá-lo, basta abrir o terminal e navegar até a pasta /lil/ e executar usando:
   
